@@ -1,0 +1,66 @@
+body{
+
+background: -webkit-linear-gradient(90deg,  rgb(24, 192, 156)10%, rgb(223, 226, 182) 90%);
+background: -moz-linear-gradient(90deg,  rgb(11, 201, 182)10%,rgb(5, 167, 189)90%);
+}
+
+
+.box{
+    height: 410px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color:rgba(5, 102, 141, 1) !important;
+    color: white;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px; /* Cette valeur doit être la moitié négative de la valeur du width */
+    margin-top: -205px; 
+   
+
+}
+.box-header{
+    height: 60px;
+    background-color: rgba(0, 168, 150, 1);
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+
+}
+.box-body{
+    
+    padding: 30px;
+    background-color: rgba(5, 102, 141, 1);
+    color: white
+
+}
+
+.box-footer{
+
+    padding: 10px;
+    color: rgba(240, 243, 189, 1);
+    
+
+}
+
+
+
+
+
+.btn {
+    color: white;
+    background-color: rgba(0, 168, 150, 1);
+    width: 100px;
+    
+  
+    
+    
+}
+.links a{
+    color: white;
+    background-color: inherit;
+   
+}
+

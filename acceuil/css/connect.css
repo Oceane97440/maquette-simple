@@ -1,0 +1,89 @@
+
+body{
+
+    background: -webkit-linear-gradient(90deg,  rgb(25, 231, 187), rgb(216, 219, 171));
+    background: -moz-linear-gradient(90deg,  rgb(11, 201, 182),rgb(5, 167, 189));
+    margin:23%;
+    width:100vh;
+    }
+
+
+.box{
+    height: 350px;
+    width: 400px;
+    background-color:rgba(5, 102, 141, 1) ;
+    color: white;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px; /* Cette valeur doit être la moitié négative de la valeur du width */
+    margin-top: -200px; 
+
+}
+
+.box-header{
+    height: 60px;
+    background-color: rgba(0, 168, 150, 1);
+    color: white;
+    text-align: center;
+    padding: 2px;
+
+
+}
+.box-body{
+    
+    padding: 30px;
+    background-color: rgba(5, 102, 141, 1);
+    color: white
+
+}
+
+.box-footer{
+    height: 60px;
+    background-color:rgba(5, 102, 141, 1) ;
+    color: white;
+    text-align: center;
+}
+
+
+
+.input-group-addon{
+    
+    background-color:rgba(240, 243, 189, 1) ;
+ 
+}
+
+
+.remember{
+    color: white;
+    margin: 4px;
+   
+    
+}
+
+
+
+
+.login_btn{
+    color: white;
+    background-color: rgba(0, 168, 150, 1);
+    width: 100px;
+    
+  
+    
+    
+}
+
+.login_btn:hover{
+    color: black;
+    background-color: rgba(240, 243, 189, 1);
+}
+
+
+
+.links a{
+    color: white;
+    background-color: inherit
+}
+
+
